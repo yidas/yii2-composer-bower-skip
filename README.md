@@ -24,14 +24,16 @@ FEATURES
 
 ***2. Skip Bower packages installation or update, No fxp/composer-asset-plugin needed***
 
-Bower packages are not original Packagist source from Composer, so it will cause error when you install or update Bower without a plugin. After requiring this package, Bower packages will not be required or updated, which you will keep the current version of Bower or even no Bower in the project vendor.
+Bower packages are not original Packagist source from Composer, so it will cause error when you install or update Bower without a plugin (`fxp/composer-asset-plugin` or `Asset-Packagist`). After requiring this package, Bower packages will not be required or updated, which you will keep the current version of Bower or even no Bower in the project vendor.
 
-If you are using Yii2 Bower, the recommended way is using [yidas/yii2-bower-asset](https://github.com/yidas/yii2-bower-asset) which could install or update Bower for Yii2 without plugin.
+If you are using Yii2 core Bower, the recommended way is using [yidas/yii2-bower-asset](https://github.com/yidas/yii2-bower-asset) which could install or update Bower for Yii2 without plugin.
 
 ---
 
 INSTALLATION
 ------------
+
+### 1. Require Package
 
 In Yii2 `composer.json`, require `yidas/yii2-composer-bower-skip` before `yiisoft/yii2`.
 
@@ -43,6 +45,21 @@ Example `composer.json`:
     "yiisoft/yii2": "~2.0.5",
     "yiisoft/yii2-bootstrap": "~2.0.0"
 }
+```
+
+### 2. Remove Composer Asset-Packagist Repositories 
+
+If you are using the version 2.0.13 or higher of Yii, you may remove the `repositories` setting of `composer.json` to use original Composer repository.
+
+Example segament to delete in `composer.json` :
+
+```
+"repositories": [
+    {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    }
+]
 ```
 
 After that, you can run `composer update` or `composer install` without handling Bower-Asset.
