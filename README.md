@@ -16,13 +16,13 @@ A Composer package that allows you to install or update Yii2 without Bower-Asset
 FEATURES
 --------
 
-***1. Prevent the error of Bower packages when using Composer install & update for Yii2***
+- ***Prevent the error of Bower packages** when using Composer install & update for Yii2*
 
-> Problem 1
->
->   \- yiisoft/yii2 2.0.12 requires bower-asset/jquery 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable -> no matching package found.
+  > Problem 1
+  >
+  >   \- yiisoft/yii2 2.0.12 requires bower-asset/jquery 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable -> no matching package found.
 
-***2. Skip Bower packages installation or update, No fxp/composer-asset-plugin needed***
+- *Skip Bower packages installation or update, **No fxp/composer-asset-plugin needed***
 
 Bower packages are not original Packagist source from Composer, so it will cause error when you install or update Bower without a plugin (`fxp/composer-asset-plugin` or `Asset-Packagist`). After requiring this package, Bower packages will not be required or updated, which you will keep the current version of Bower or even no Bower in the project vendor.
 
