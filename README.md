@@ -47,9 +47,9 @@ Example `composer.json`:
 }
 ```
 
-### 2. Remove Composer Asset-Packagist Repositories 
+### 2. Remove Composer Asset-Packagist Repositories Optionally
 
-If you are using the version 2.0.13 or higher of Yii, you may remove the `repositories` setting of `composer.json` to use original Composer repository.
+If you are using the version 2.0.13 or higher of Yii, you may optional remove the `repositories` setting of `composer.json` to use original Composer repository.
 
 Example segament to delete in `composer.json` :
 
