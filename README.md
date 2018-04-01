@@ -141,5 +141,5 @@ This is the recommended way to handle Bower with Yii2.
 
 ### Asset-Packagist Solution
 
-[Asset-Packagist](https://asset-packagist.org/) is the new solution of Yii2, you may install Bower smoothly in Yii2 with [new version](https://github.com/yiisoft/yii2-app-basic/commit/fc2ec7dfee9313288171e2fe8a5b80e22c1e1509) until release. 
+[Asset-Packagist](https://asset-packagist.org/) is the new solution of Yii2, you may install Bower smoothly in Yii2 from [2.0.14 version](https://github.com/yiisoft/yii2-app-basic/commit/fc2ec7dfee9313288171e2fe8a5b80e22c1e1509) until release. 
 
