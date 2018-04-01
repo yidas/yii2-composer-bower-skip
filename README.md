@@ -12,6 +12,7 @@ A Composer package that allows you to install or update Yii2 without Bower-Asset
 [![Total Downloads](https://poser.pugx.org/yidas/yii2-composer-bower-skip/downloads?format=flat-square)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
 [![Latest Unstable Version](https://poser.pugx.org/yidas/yii2-composer-bower-skip/v/unstable?format=flat-square)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
 [![License](https://poser.pugx.org/yidas/yii2-composer-bower-skip/license?format=flat-square)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
+[![Monthly Downloads](https://poser.pugx.org/yidas/yii2-composer-bower-skip/d/monthly)](https://packagist.org/packages/yidas/yii2-composer-bower-skip)
 
 FEATURES
 --------
